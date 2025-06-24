@@ -14,31 +14,31 @@ public class Withdraw_Simulation {
             int balance = 10000;
 
             int withdraw = sc.nextInt();
-
-
-
-            if(withdraw > balance ){
-                System.out.println("transaction fail enter amount in limit");
-            } else if (withdraw <= 0 ) {
-                System.out.println("Amount should be greater than zero");
-            } else if (withdraw%100==0) {
-                    withdrawAmt(balance,withdraw);
-            } else {
-                System.out.println("Amount must be a multiple of 100");
-            }
-
+            withdrawAmt(balance,withdraw);
         }else {
-            System.out.println("please Enter valid Amount");
+            System.out.println("please Enter valid Amount !");
         }
     }
 
     private static void withdrawAmt(int balance, int withdraw) {
 
-        System.out.println("Money Withrawn");
 
-        balance = balance-withdraw;
+        if(withdraw > balance ){
+            System.out.println("transaction fail enter amount in limit");
+        } else if (withdraw <= 0 ) {
+            System.out.println("Amount should be greater than zero");
+        } else if (withdraw%100!=0) {
+            System.out.println("Amount must be a multiple of 100");
+        } else {
+            System.out.println("Money Withrawn");
 
-        System.out.println("Updated balance is :" +balance);
+            balance = balance-withdraw;
+
+            System.out.println("Updated balance is :" +balance);
+
+        }
+
+
 
     }
 
