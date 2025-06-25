@@ -9,23 +9,23 @@ public class Bonus_calculator {
         System.out.println("Enter your salary : ");
         double salary = sc.nextDouble();
 
-        System.out.println("Enter year of experience :");
-        double experience = sc.nextDouble();
+        System.out.println("Enter year of Joining :");
+        int join_year = sc.nextInt();
 
         double bonus ;
         double bonusGained ;
         double totalSalary;
-        if(experience < 1){
+        if(2025-join_year < 1){
             System.out.println("No bonus for you experience is low work hard !! ");
             System.out.println(salary + " sorry no bonus for you");
-        } else if (experience >=1 && experience <= 3 ) {
+        } else if ( 2025-join_year <= 3 ) {
             bonus = 5;
             System.out.println("congratulation you got 5% bonus");
             bonusGained =( salary * bonus) / 100;
              totalSalary = salary + bonusGained ;
 //            System.out.println(bonusGained);
             System.out.println(totalSalary + " Salary after bonus");
-        }else if (experience >=4 && experience <= 6 ) {
+        }else if ( 2025-join_year <= 6 ) {
             bonus = 10;
             System.out.println("congratulation you got 10% bonus");
             bonusGained =( salary * bonus) / 100;
