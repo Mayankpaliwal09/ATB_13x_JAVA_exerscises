@@ -17,7 +17,7 @@ public class Grade_calculation {
             }
         } else {
             System.out.println("Please enter the valid marks");
-            return;
+
         }
 
 
@@ -36,7 +36,7 @@ public class Grade_calculation {
             System.out.println("Grade is  : C");
         } else if (marks >= 50 ) {
             System.out.println("Grade is  : D");
-        } else if (marks >= 50 ) {
+        } else if (marks >= 40 ) {
             System.out.println("Grade is  : E");
         } else {
             System.out.println("You are fail ");
