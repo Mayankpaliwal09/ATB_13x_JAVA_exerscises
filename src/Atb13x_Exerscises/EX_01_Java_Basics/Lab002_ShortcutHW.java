@@ -1,4 +1,4 @@
-package EX_01_Java_Basics;
+package Atb13x_Exerscises.EX_01_Java_Basics;
 
 public class Lab002_ShortcutHW {
     public static void main(String[] args) {
