@@ -1,4 +1,4 @@
-package EX_01_Java_Basics;
+package Atb13x_Exerscises.EX_01_Java_Basics;
 
 public class Table_9 {
     public static void main(String[] args) {
