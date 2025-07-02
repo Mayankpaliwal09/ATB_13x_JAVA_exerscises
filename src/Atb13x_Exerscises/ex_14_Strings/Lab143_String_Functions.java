@@ -3,7 +3,7 @@ package Atb13x_Exerscises.ex_14_Strings;
 public class Lab143_String_Functions {
     public static void main(String[] args) {
 
-        String name = "Sonal";// 0,1,2,3,4
+        String name = "Sonali";// 0,1,2,3,4
         System.out.println(name.length());  // 5
         System.out.println(name.charAt(3)); //a
         System.out.println(name.charAt(0)); // S

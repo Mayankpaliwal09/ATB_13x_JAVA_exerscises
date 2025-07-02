@@ -5,11 +5,11 @@ public class Lab138_Strings_Functions {
         char c = 'A';
         System.out.println(c);
 
-        String s1 = "ABCD";
+        String s1 = "ABCDE";
         System.out.println(s1);
         System.out.println(s1.length());
         System.out.println(s1.toUpperCase());
         System.out.println(s1.toLowerCase());
-        System.out.println(s1.concat("E"));
+        System.out.println(s1.concat("F"));
     }
 }
