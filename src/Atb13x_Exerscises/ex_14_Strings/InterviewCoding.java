@@ -20,7 +20,7 @@ public class InterviewCoding {
         if(string_reversed.equalsIgnoreCase(input)){
             System.out.println("palindrome");
         } else {
-            System.out.println("not palindrome");
+            System.out.println("not palindromee");
         }
 
 
