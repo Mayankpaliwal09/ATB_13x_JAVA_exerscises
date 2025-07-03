@@ -11,6 +11,6 @@ public class prog3 {
             str +="a";
         }
         long endtime = System.nanoTime();
-        System.out.println("time taken for string literal : " + (endtime -startTime)/1000000);
+        System.out.println("time taken for string literal : " + (endtime -startTime)/1_000_000+"ms");
     }
 }
