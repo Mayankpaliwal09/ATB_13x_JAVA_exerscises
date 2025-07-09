@@ -34,7 +34,7 @@ class child extends Father{
 
     @Override
     void loan50k(){
-        System.out.println("this is abstract class method of 50k loan");
+        System.out.println("this is a abstract class method of 50k loan");
         System.out.println("son has to give 50k loan");
     }
 }

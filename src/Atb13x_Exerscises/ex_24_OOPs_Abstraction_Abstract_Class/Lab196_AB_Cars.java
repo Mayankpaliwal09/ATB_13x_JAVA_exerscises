@@ -5,6 +5,7 @@ public class Lab196_AB_Cars {
 
         WagonR car1 = new WagonR();
           car1.drive();
+          car1.startEngine();
     }
 }
 
