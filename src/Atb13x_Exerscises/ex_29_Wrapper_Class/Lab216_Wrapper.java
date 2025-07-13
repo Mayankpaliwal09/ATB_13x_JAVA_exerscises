@@ -34,6 +34,8 @@ public class Lab216_Wrapper {
         System.out.println(Mobile.mobile_Carrier);
         Mobile.switchOnAirplaneMode();
         Mobile.switchOnAirplaneMode();
+
+        System.out.println(Covers.blue.getColor());
     }
 }
 
