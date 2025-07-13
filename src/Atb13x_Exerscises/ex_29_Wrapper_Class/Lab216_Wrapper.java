@@ -25,6 +25,15 @@ public class Lab216_Wrapper {
 
         System.out.println(Covers.blue.getColor());
 
+
+        System.out.println("-------------------------");
+
+
+        Mobile pixel = new Mobile(3,"pixel 5",60000.00);
+        pixel.display();
+        System.out.println(Mobile.mobile_Carrier);
+        Mobile.switchOnAirplaneMode();
+        Mobile.switchOnAirplaneMode();
     }
 }
 
