@@ -1,4 +1,4 @@
-package Tasks_java_ATX13.Tasks_1stJuly_ArrayList;
+package Tasks_java_ATX13.Tasks_11th_July_ArrayList;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -13,5 +13,6 @@ public class Task_6_insert_middle_ll {
 
         fruits.add(1,"Orange");
         System.out.println("Fruits List: " + fruits);
+
     }
 }

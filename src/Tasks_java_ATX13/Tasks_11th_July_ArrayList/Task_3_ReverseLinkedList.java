@@ -1,6 +1,4 @@
-package Tasks_java_ATX13.Tasks_1stJuly_ArrayList;
-
-import org.w3c.dom.stylesheets.LinkStyle;
+package Tasks_java_ATX13.Tasks_11th_July_ArrayList;
 
 import java.util.LinkedList;
 import java.util.List;
